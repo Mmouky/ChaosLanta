@@ -115,9 +115,10 @@ public class Commands extends ListenerAdapter {
                         break;
                     case "votestart":
                         for(User user : KohLanta.getMembers()) {
-                            user.openPrivateChannel().queue(privateChannel -> privateChannel.sendMessage("test").queue());
+                            user.openPrivateChannel().queue(privateChannel -> privateChannel.sendMessage("Veuillez voter pour la personne que vous voulez éliminer").queue());
                         }
                         break;
+
                     case "help":
                         EmbedBuilder help = new EmbedBuilder();
                         help.setTitle("Liste des commandes :");
@@ -131,6 +132,7 @@ public class Commands extends ListenerAdapter {
                         help.setColor(Color.GREEN);
                         e.getChannel().sendMessage(help.build()).queue();
                         break;
+
                     default:
                         e.getChannel().sendMessage("Cette commande n'existe pas, pour consulter la liste des commandes : /help").queue();
                         break;
