@@ -1,6 +1,7 @@
 package fr.mmouky.bot;
 
 import fr.mmouky.bot.JDA.JDAManager;
+import fr.mmouky.bot.game.GameState;
 import fr.mmouky.bot.game.KohLanta;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.OnlineStatus;
@@ -28,15 +29,14 @@ public class Commands extends ListenerAdapter {
                 //e.getGuild().getTextChannelsByName("chaos-lanta", true).get(0).sendMessage("test").queue();
                 //e.getAuthor().openPrivateChannel().queue(privateChannel -> privateChannel.sendMessage("test").queue());
 
-                if (args[0].equalsIgnoreCase("join")) {
-                    e.getMessage().delete().queue();
+                e.getMessage().delete().queue();
 
+                if (args[0].equalsIgnoreCase("join")) {
                     if (!KohLanta.getMembers().contains(e.getAuthor())) {
                         KohLanta.join(e.getAuthor());
                         e.getChannel().sendMessage(e.getAuthor().getAsMention() + " a rejoint la partie !").queue();
                     }
                 } else if (args[0].equalsIgnoreCase("list")) {
-                    e.getMessage().delete().queue();
                     EmbedBuilder list = new EmbedBuilder();
                     list.setTitle("Liste des participants :");
                     for (User user : KohLanta.getMembers()) {
@@ -45,11 +45,19 @@ public class Commands extends ListenerAdapter {
                     list.setColor(Color.RED);
                     e.getChannel().sendMessage(list.build()).queue();
                 } else if (args[0].equalsIgnoreCase("stop")) {
-                    JDAManager.getJDA().getPresence().setActivity(null);
-                    JDAManager.getJDA().getPresence().setStatus(OnlineStatus.INVISIBLE);
+                    if(KohLanta.state == GameState.STARTED) {
+                        KohLanta.state = GameState.STOPED;
+                        JDAManager.getJDA().getPresence().setActivity(null);
+                        JDAManager.getJDA().getPresence().setStatus(OnlineStatus.INVISIBLE);
+                        e.getChannel().sendMessage("La partie vient d'être interrompue !").queue();
+                    }
                 }else if (args[0].equalsIgnoreCase("start")) {
-                    JDAManager.getJDA().getPresence().setActivity(Activity.playing("Koh Lanta"));
-                    JDAManager.getJDA().getPresence().setStatus(OnlineStatus.ONLINE);
+                    if(KohLanta.state == GameState.STOPED){
+                        KohLanta.state = GameState.STARTED;
+                        JDAManager.getJDA().getPresence().setActivity(Activity.playing("Koh Lanta"));
+                        JDAManager.getJDA().getPresence().setStatus(OnlineStatus.ONLINE);
+                        e.getChannel().sendMessage("La partie vient de commencer !").queue();
+                    }
                 }
             }
         }

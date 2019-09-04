@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class KohLanta {
 
     private static ArrayList<User> users = new ArrayList<>();
+    public static GameState state = GameState.STOPED;
 
     public static void join(User user){
         users.add(user);
