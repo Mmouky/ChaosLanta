@@ -1,4 +1,4 @@
-package fr.mmouky.bot.game;
+package fr.mmouky.bot.kohlanta;
 
 public enum GameState {
 

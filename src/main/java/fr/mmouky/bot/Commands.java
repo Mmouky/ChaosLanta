@@ -1,8 +1,9 @@
 package fr.mmouky.bot;
 
 import fr.mmouky.bot.JDA.JDAManager;
-import fr.mmouky.bot.game.GameState;
-import fr.mmouky.bot.game.KohLanta;
+import fr.mmouky.bot.kohlanta.GameState;
+import fr.mmouky.bot.kohlanta.KohLanta;
+import fr.mmouky.bot.kohlanta.games.Games;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -99,6 +100,22 @@ public class Commands extends ListenerAdapter {
                             } else {
                                 e.getChannel().sendMessage(KohLanta.gameMaster.getAsMention() + " est le maître du jeu !").queue();
                             }
+                        }
+                        break;
+                    case "game":
+                        if(args.length == 1){
+
+                        }else{
+                            if(args[1].equalsIgnoreCase("list")){
+                                e.getChannel().sendMessage(Games.list().build()).queue();
+                            }else if(args[1].equalsIgnoreCase("play")){
+                                e.getChannel().sendMessage(Games.choseGame().build()).queue();
+                            }
+                        }
+                        break;
+                    case "votestart":
+                        for(User user : KohLanta.getMembers()) {
+                            user.openPrivateChannel().queue(privateChannel -> privateChannel.sendMessage("test").queue());
                         }
                         break;
                     case "help":
