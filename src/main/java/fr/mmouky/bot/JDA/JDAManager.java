@@ -16,7 +16,7 @@ public class JDAManager {
 
     private static JDA buildJDA(){
         try {
-            return new JDABuilder(AccountType.BOT).setToken("NjE4OTA2MDc0OTM3ODE5MTM4.XXAgeA.AjDjHJW-EDQEG91kJCC356yk-xU").build();
+            return new JDABuilder(AccountType.BOT).setToken("NjE4OTA2MDc0OTM3ODE5MTM4.XXAjGw.F6MdsHKM7K5M2WkbgHQ1nJ0UzrU").build();
         } catch (LoginException e) {
             e.printStackTrace();
         }
