@@ -78,18 +78,19 @@
     <session id="-918100600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="265" />
+          <entry key="java" value="2284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="265" />
+          <entry key="JAVA" value="2284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+            <state relative-caret-position="395">
+              <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,10 +146,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/KohLanta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="221">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -477,8 +480,8 @@
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/ChaosLanta.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/Games.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/JDA/JDAManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/JDA/JDAManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/KohLanta.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Commands.java" />
       </list>
@@ -550,7 +553,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567609805447" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567615100599" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -613,7 +616,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -623,13 +625,13 @@
       <window_info content_ui="combo" x="232" y="196" width="474" height="899" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="6" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.23581758" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.3114572" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32925472" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.26140156" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -676,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/Games.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -700,20 +695,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/game/KohLanta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="221">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+        <state relative-caret-position="395">
+          <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
