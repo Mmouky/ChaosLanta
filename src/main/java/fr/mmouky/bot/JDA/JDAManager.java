@@ -16,7 +16,11 @@ public class JDAManager {
 
     private static JDA buildJDA(){
         try {
+<<<<<<< HEAD
             return new JDABuilder(AccountType.BOT).setToken("NjE4OTA2MDc0OTM3ODE5MTM4.XXAkSA.o3mEwZXcyQWU9lfkOqMAj2dyBZY").build();
+=======
+            return new JDABuilder(AccountType.BOT).setToken("NjE4OTA2MDc0OTM3ODE5MTM4.XXAjGw.F6MdsHKM7K5M2WkbgHQ1nJ0UzrU").build();
+>>>>>>> 901f31197f11dbb807541cad50b25177e41952f6
         } catch (LoginException e) {
             e.printStackTrace();
         }
