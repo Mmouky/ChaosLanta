@@ -49,13 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Commands.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="378">
-              <caret line="115" column="37" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
-=======
             <state relative-caret-position="395">
               <caret line="126" column="100" lean-forward="true" selection-start-line="126" selection-start-column="100" selection-end-line="126" selection-end-column="100" />
->>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,13 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/kohlanta/games/Games.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="225">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-=======
             <state>
               <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
->>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,18 +120,11 @@
       </list>
     </option>
   </component>
-<<<<<<< Updated upstream
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1901" />
     <option name="y" value="-15" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
->>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,10 +187,6 @@
               <item name="bot" type="462c0819:PsiDirectoryNode" />
               <item name="kohlanta" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ChaosLanta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,13 +196,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< Updated upstream
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567623867676" />
-=======
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567627655325" />
->>>>>>> Stashed changes
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -294,25 +269,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-=======
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
->>>>>>> Stashed changes
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="4" />
-<<<<<<< Updated upstream
-      <window_info active="true" content_ui="combo" x="232" y="196" width="474" height="899" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.17590618" />
-      <window_info id="Structure" order="6" sideWeight="0.50082916" side_tool="true" weight="0.25" />
-=======
       <window_info active="true" content_ui="combo" x="232" y="196" width="474" height="899" id="Project" order="5" sideWeight="0.49837488" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="6" sideWeight="0.5016251" side_tool="true" weight="0.1641791" />
->>>>>>> Stashed changes
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.23581758" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.3109426" />
@@ -320,11 +286,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-<<<<<<< Updated upstream
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" visible="true" weight="0.26140156" />
-=======
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.2611051" />
->>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -413,13 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/kohlanta/KohLanta.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="225">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-=======
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
->>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
@@ -441,13 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/mmouky/bot/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="378">
-          <caret line="115" column="37" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
-=======
         <state relative-caret-position="395">
           <caret line="126" column="100" lean-forward="true" selection-start-line="126" selection-start-column="100" selection-end-line="126" selection-end-column="100" />
->>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -511,7 +463,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
