@@ -107,10 +107,21 @@ public class Commands extends ListenerAdapter {
 
                         }else{
                             if(args[1].equalsIgnoreCase("list")){
-                                e.getChannel().sendMessage(Games.list().build()).queue();
+                                e.getChannel().sendMessage(Games.showList().build()).queue();
                             }else if(args[1].equalsIgnoreCase("play")){
                                 e.getChannel().sendMessage(Games.choseGame().build()).queue();
+                            }else if(args[1].equalsIgnoreCase("add")){
+                                if(args.length > 3){
+                                    StringBuilder builder = new StringBuilder(args[3]);
+                                    for(int i = 4; i< args.length;i++){
+                                        builder.append(" "+args[i]);
+                                    }
+                                    Games.addGame(args[2],builder.toString());
+                                    e.getChannel().sendMessage(builder.toString() + " a été ajouté à la liste des jeux à l'adresse : " + args[2]).queue();
+                                }
                             }
+
+
                         }
                         break;
                     case "votestart":
@@ -126,7 +137,10 @@ public class Commands extends ListenerAdapter {
                         help.addField(prefix + "list", "Afficher la liste des participants", false);
                         help.addField(prefix + "start", "Démarrer la partie", false);
                         help.addField(prefix + "stop", "Arrêter la partie", false);
-                        help.addField(prefix + "gm", "Définir le maître du jeu", false);
+                        help.addField(prefix + "gm [mention discord]", "Commandes concernant le maître du jeu", false);
+                        help.addField(prefix + "game {list|play|add}", "Commandes concernant les épreuves", false);
+                        help.addField(prefix + "votestart", "Lancer les votes", false);
+
 
                         help.setColor(Color.GREEN);
                         e.getChannel().sendMessage(help.build()).queue();

@@ -1,7 +1,7 @@
 package fr.mmouky.bot;
 
 import fr.mmouky.bot.JDA.JDAManager;
-import net.dv8tion.jda.api.entities.Activity;
+import fr.mmouky.bot.kohlanta.games.Games;
 
 public class Main {
 
